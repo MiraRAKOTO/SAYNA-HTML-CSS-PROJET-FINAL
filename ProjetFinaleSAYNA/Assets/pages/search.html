@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/search.css">
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="container-fluid header ">
+        <div class="row nav">
+            <!--Partie à gauche header-->
+            <div class="col float-left">
+                <div class="row">
+                    <div class="col-2 pt-3 pb-1">
+                        <img src="../Images/group-2.svg" alt="groupe-2" width="90%">
+                    </div>
+                    <div class="col-3 pt-4">
+                        <a class="navbar-brand link-events pt-6" href="../../index.html">[Events]</a>
+                    </div>
+                </div>
+            </div>
+            <!--Partie à droite header-->
+            <div class="col float-right">
+                <div class="row pt-4">
+                    <div class="col offset-md-2 pt-1">
+                        <a class="navbar-brand  menu" href="search.html"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
+                    </div>
+                    <div class="col pt-1">
+                        <a class="navbar-brand  menu" href="about.html"><i class="fa-regular fa-user"></i> About</a>
+                    </div>
+                    <div class="col pt-1">
+                        <a class="navbar-brand  menu" href="#"><i class="fa-solid fa-wifi"></i>Blog</a>
+                    </div>
+                    <div class="col pt-1">
+                        <a class="navbar-brand  menu" href="#"><i class="fa fa-bars" aria-hidden="true"s></i> More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--MENU PRINCIPAL-->
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center head-search">
+                <!--ROW-1-->
+                <div class="row">
+                    <div class="col text-center">
+                        <h3>Filter by location,host,subject,date,daytime: </h3>
+                    </div>
+                </div>
+
+                <!--ROW-2-->
+                <div class="row">
+                    <!--col-1-->
+                    <div class="col-1">
+                        <form action="" method="POST">
+                            <labe>Location</label>
+                                <input type="text">
+                        </form>
+                    </div>
+                    <!--col-2-->
+                    <div class="col-1">
+                        <form action="" method="POST">
+                            <labe>Location</label>
+                                <input type="text">
+                        </form>
+                    </div>
+
+                    <!--col-3-->
+                    <div class="col-1">
+                        <form action="" method="POST">
+                            <labe>Location</label>
+                                <input type="text">
+                        </form>
+                    </div>
+
+                    <!--col-4-->
+                    <div class="col-2">
+                        <form action="" method="POST">
+                            <labe>Location</label>
+                                <input type="date">
+                        </form>
+                    </div>
+
+                    <!--col-5-->
+                    <div class="col-2">
+                        <form action="" method="POST">
+                            <labe>Location</label>
+                                <input type="date">
+                        </form>
+                    </div>
+
+                    <!--col-6-->
+                    <div class="col-2 d-flex flex-column">
+                        <labe>Location</label>
+                            <form action="" method="POST">
+                                <select class="form-select form-select " aria-label=".form-select-lg example">
+                                    <option selected>Choose...</option>
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                  </select>
+                            </form>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-warning" type="button"> <i class="fa-regular fa-pen-to-square"></i> Clear Filter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5> Search Result found 7[Events] Nearby </h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2 image-link">
+                    <img src="../Images/group-2.svg" alt="" width="100%" class="bg-red">
+                    <a href="about.html"> go to [gathering] example</a>
+                </div>
+                <div class="col-2 image-link">
+                    <img src="../Images/group-2.svg" alt="" width="100%" class="bg-red">
+                    <a href="about.html"> go to [gathering] example</a>
+                </div>
+                <div class="col-2 image-link">
+                    <img src="../Images/group-2.svg" alt="" width="100%" class="bg-red">
+                    <a href="about.html"> go to [gathering] example</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--FOOTER-->
+    <div class="container-fluid footer bg-black">
+
+        <!--Partie contenant les menus du footer-->
+        <div class="row justify-content-md-center menuContent-footer pt-4">
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer" href="../../index.html">HOME</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer " href="search.html">SEARCH</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer" href="about.html">ABOUT US</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer" href="../../index.html">ADVERTISE</a>
+            </div>
+            <div class="col-1 border rounded-circle border-white my-4 py-4 ">
+                <p class=""><i class="fa-solid fa-location-dot"></i></p>
+            </div>
+            <div class="col-1 border-top border-bottom  border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer" href="../../index.html">FACEBOOK</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand menu-footer" href="../../index.html">TWITTER</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand  menu-footer" href="../../index.html">INSTAGRAM</a>
+            </div>
+            <div class="col-1 border-top border-bottom border-white my-5 pt-3">
+                <a class="navbar-brand  menu-footer " href="../../index.html">BLOG</a>
+            </div>
+        </div>
+
+        <!--Partie en bas du menu footer-->
+        <div class="row contact-footer my-5">
+            <div class="col text-center col-contact-footer ">
+                <h2>Subscribe</h2>
+                <form action="" method="POST">
+                    <input type="text" placeholder="Insert your e-mail here" class="input-email bg-black p-1">
+                    <button class="btn btn-primary px-4 py-2 send-button" type="submit">send</button>
+                </form>
+            </div>
+            <div class="col text-center col-contact-footer">
+                <h2>Contact</h2>
+                <address>
+                  Have a question or sugestion
+                  <br>
+                  <!--Envoie email avec contact@event.com avec objet "Ask Me Anything"-->
+                  <a href="mailto:contact@events.com?Subject:Ask Me Anything" class="red-footer">contact@events.com</a>
+                </address>
+            </div>
+
+            <div class="col text-center col-contact-footer">
+                <h2>About</h2>
+                <p>[Events] is an online platform that works to improve and increase social life conections, when this nigthmare that we are curently living in is over
+                    <a href="about.html" class="red-footer">learn more.</a>
+                </p>
+            </div>
+        </div>
+
+        <!--La partie tout-bas du contenant du footer-->
+        <div class="row underfooter py-3 ">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-1">
+                        <p><i class="fa-brands fa-facebook-square"></i></p>
+                    </div>
+                    <div class="col-1">
+                        <p><i class="fa-brands fa-twitter"></i></p>
+                    </div>
+                    <div class="col-1">
+                        <p><i class="fa-brands fa-instagram"></i></p>
+                    </div>
+                    <div class="col-1">
+                        <p><i class="fa-brands fa-tumblr"></i></p>
+                    </div>
+                    <div class="col-1">
+                        <p><i class="fa-brands fa-linkedin"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <p>© 2020 [Events], Inc All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
