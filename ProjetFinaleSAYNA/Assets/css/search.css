@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "free-fa-brands";
+    src: url(../Fonts/free-fa-brands-400.woff2);
+}
+
+@font-face {
+    font-family: 'free-fa-regular';
+    src: url(../Fonts/free-fa-regular-400.woff2);
+}
+
+@font-face {
+    font-family: 'free-fa-solid';
+    src: url(../Fonts/free-fa-solid-900.woff2);
+}
+
+@font-face {
+    font-family: 'jizaRExUiTo99u79D0KExQ';
+    src: url(../Fonts/jizaRExUiTo99u79D0KExQ.woff2);
+}
+
+@font-face {
+    font-family: 'izfRExUiTo99u79B_mh0O6tLQ';
+    src: url(../Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2);
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    background-color: #d35649;
+}
+
+.header a {
+    color: #ffff;
+}
+
+
+/*Sur survole à la souris */
+
+.header a:hover {
+    color: #98a5a5;
+}
+
+.link-events {
+    font-size: 25px;
+    text-shadow: 3px 2px 2px #1b598b;
+}
+
+.menu {
+    font-family: 'jizaRExUiTo99u79D0KExQ';
+    font-size: 14px;
+}
+
+.menu i {
+    margin-right: 7%;
+}
+
+.fa-wifi {
+    /* tourner l'icone wifi */
+    transform: rotate(45deg);
+}
+
+.contentmenu-footer {
+    color: #fff;
+}
+
+
+/*evenement sur survol */
+
+.menuContent-footer a:hover {
+    color: #98a5a5;
+}
+
+.menu-footer {
+    color: #fff;
+    font-family: 'izfRExUiTo99u79B_mh0O6tLQ';
+    font-size: 14px;
+}
+
+
+/*Augmenter la taille de l'icone*/
+
+.fa-location-dot {
+    color: #fff;
+    font-size: 250%;
+    position: relative;
+    top: 8px;
+    left: 30%;
+}
+
+.col-contact-footer {
+    color: #fff;
+    font-family: 'jizaRExUiTo99u79D0KExQ';
+}
+
+.col-contact-footer h2 {
+    margin-bottom: 5%;
+    font-family: 'izfRExUiTo99u79B_mh0O6tLQ';
+    font-size: 25px;
+}
+
+.col-contact-footer .input-email {
+    border: solid 1px #1f1f1f;
+}
+
+.col-contact-footer .send-button {
+    background-color: #444;
+    border: #444;
+}
+
+.col-contact-footer .red-footer {
+    color: #d35649;
+}
+
+.red-footer:hover {
+    text-decoration: underline;
+}
+
+.underfooter {
+    background-color: #1f1f1f;
+    color: #eee;
+}
+
+.underfooter p {
+    font-size: 14px;
+}
+
+
+/*sur survol icone devient bleu */
+
+.underfooter i:hover {
+    color: #509bd7;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width:768px) {
+    /*header*/
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-header {
+        justify-content: center;
+    }
+    .left-header .img-header {
+        width: 200%;
+    }
+    .left-header .link-events {
+        margin-left: 25%;
+        font-size: 200%;
+    }
+    .cols {
+        width: 5%;
+        padding: 0% 3% 0%;
+    }
+    .row-nav-right {
+        text-align: center;
+    }
+    .float-right .row-nav-right span {
+        display: none;
+    }
+    /*FOOTER*/
+    .menuContent-footer,
+    .contact-footer {
+        display: none;
+    }
+}
